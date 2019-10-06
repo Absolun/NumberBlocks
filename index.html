@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>수모형 시뮬레이터</title>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/NumIcon.ico"/>
+        <link rel="stylesheet" href="resources/css/Background.css"/>
+        <link rel="stylesheet" href="resources/css/optionTab.css"/>
+        <link rel="stylesheet" href="resources/css/UI.css"/>
+        <meta charset="UTF-8"/>
+    </head>
+    <body id="Canvas">
+        <div id="Inform" onclick="SwapVis()">
+            <img id="optImg" src="resources/images/inf.png"/>
+        </div>
+        <div id="Opt">
+            <img id="optImg" src="resources/images/opt.png"/>
+        </div>
+        <div id="Clear" onclick="Clear()">
+            <img id="optImg" src="resources/images/Reset.png"/>
+        </div>
+        <div id="Vis" style="display: none">
+            <img id="Help" src="resources/images/Help.png"/>
+            <pre id="HelpText">    1 - 드래그이동  2 - 모형분할  3- 모형 합치기
+    ctrl + 1 - 모형삭제
+    A - 합 켜기/끄기
+    Z, X, C - 마우스위치에 모형추가
+    Lctrl+Z, X, C - 마우스 위치에 정렬
+    * F11 : 전체화면
+            </pre>
+        </div>
+        <div style="text-align: center">
+            <label id="Sum">Sum : 0</label>
+        </div>
+        <div id="Plus1" onclick="AddButtonClicked(1)">
+            <label id="PlusLabel">+1</label>
+        </div>
+        <div id="Plus10" onclick="AddButtonClicked(10)">
+            <label id="PlusLabel">+10</label>
+        </div>
+        <div id="Plus100" onclick="AddButtonClicked(100)">
+            <label id="PlusLabel">+100</label>
+        </div>
+        <!--
+        <div class="wrapper">
+            <input id="Input" placeholder="Number" type="number" min="0" max="9999">
+            <button id="Add">asdf</button>
+        </div>
+        -->
+        <script src="resources/js/optionTab.js"></script>
+        <script src="resources/js/Events.js"></script>
+        <script src="resources/js/ControlElements.js"></script>
+        <script src="resources/js/UI.js"></script>
+    </body>
+</html>

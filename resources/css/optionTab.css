@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+#Sum {
+    position: relative;
+    top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+#Opt {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+#Opt:hover {
+    background-color: #aaaaaa;
+}
+#Inform {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    right: 72px;
+    top: 30px;
+}
+#Inform:hover {
+    background-color: #aaaaaa;
+}
+#Clear {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    right: 114px;
+    top: 30px;
+}
+#Clear:hover {
+    background-color: #aaaaaa;
+}
+#Help {
+    height: 120px;
+    width: auto;
+    right: 72px;
+    top: 75px;
+    position: absolute;
+}
+#HelpText {
+    width: 350px;
+    right: 90px;
+    top: 185px;
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+#optImg {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
